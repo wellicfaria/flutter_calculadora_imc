@@ -22,6 +22,7 @@ class _HomeState extends State<Home> {
     alturaController.text = "";
     setState(() {
       _info_calc = "Informe seus dados!";
+      _formkey = GlobalKey<FormState>();
     });
   }
 
